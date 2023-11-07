@@ -1,0 +1,171 @@
+.nav-bar{
+    background-color: #5569dc;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px; 
+}
+.nav-bar ul{
+    color: white;
+    font:20px "playfair display",serif;
+    list-style-type: none;
+    display: flex; 
+    margin-top: 20px;
+}
+.nav-bar ul li{
+    padding: 0px 30px 10px 0;
+   
+}
+.nav-bar ul a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#name-block{
+    display: flex;
+}
+#name1{
+    flex:1;
+    background-color: #5569dc;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.image-block1{
+    flex:3;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-image: url(../assests/background\ image.jpg);
+    background-size:cover;
+    font-size: xx-large;
+    
+    align-items: center;
+}
+#name1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+    margin-left: 30px;
+}
+#name1 button{
+    height: 52px;
+    width: 162px;
+    margin-bottom: 50px;
+   
+}
+#name1 a{
+    color: white;
+}
+#about-section{
+    background-color: #5569DC1A;
+  
+    padding: 0px 240px;
+   
+}
+#about-section h1{
+    color: #5569dc;
+    font:32px "playfair display",serif;;
+    padding-top: 50px;
+}
+#about-section span{
+    color: #5569dc;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 30px;
+}
+#about-section p{
+    color: #1c2349;
+    font-size:21px ;
+    padding-top: 50px;
+    line-height: 40px;
+    padding-bottom: 100px;
+   
+}
+#education-section,#skills{
+    display: flex;
+    padding-left: 270px;
+    margin-top: 40px;
+}
+#education-section h1,#skills h1,#achievements h1{
+    color: #5569dc;
+    font: 32px "playfair display",serif;
+}
+#education-section p,#skills p,#achievements p{
+    color: #5569dc;
+    font-size: 16px;
+   
+}
+#education-section .major, .skill,#achievements .likes{
+    color:#1c2349;
+    font-size: 16px;
+    margin-top: 30px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+#skill-bar{
+ color: #5569dc !important;
+
+}
+#achievements{
+    margin-top: 60px;
+    padding-left: 270px;
+}
+#footer h1,#footer p{
+    color: #1c2349;
+    margin: 70px 0px 60px 0px;
+
+}
+#footer{
+   
+    margin-top: 50px;
+    background-color: #5569DC1A;
+    padding-bottom: 70px;
+    padding-left: 240px;
+
+}
+#footer button{
+    background-color: #5569dc;
+    height: 52px;
+    padding: 0px 20px;
+    border: none;
+    color: white;
+    font-weight: lighter;
+}
+#footer a{
+    color: black;
+}
+@media screen and (min-width:320px) and (max-width:1023px){
+#about{
+       width:1023px;
+}
+}
+@media screen and (min-width:320px) and (max-width:1023px){
+    #name-block{
+           width:1023px;
+    }
+    }
+    @media screen and (min-width:320px) and (max-width:1023px){
+        #footer{
+               width:1023px;
+        }
+    }
+    @media screen and (min-width:320px) and (max-width:1023px){
+        .nav-bar{
+               width:1023px;
+               
+        }
+        }
+        @media screen and (min-width:320px) and (max-width:1023px){
+            #education .major,#projects .major,#achievements p,#achievements .likes{
+                   width:565px;
+                   
+            }
+            }
+            
+        
+    
